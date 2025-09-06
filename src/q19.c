@@ -3,3 +3,20 @@ Example: User’s Input = 2, then pattern to print will be:
     * *
     * *
 */
+#include <stdio.h>
+
+int main(){
+    int size;
+    printf("Enter the size\n"); 
+    scanf("%d",&size);
+    for(int i=1;i<=size;i++){
+        for(int j=1;j<=size;j++){
+
+            printf("* ");
+            }
+            printf("\n"); 
+        }
+        
+    
+    return 0;
+}
